@@ -44,10 +44,11 @@
 
 h1 {
     flex: auto;
+    flex-direction: column;
     text-align: center;
     margin-top: 6rem;
     font-family: "Times New Roman", Times, serif;
-    font-size: 500%;
+    font-size: 400%;
     margin-bottom: 12rem;
 }
 
