@@ -31,10 +31,15 @@
     
     align-content: center;
     
-   
-    
-    
 }
+.video {
+  margin-right:2rem;
+  flex:auto;
+  
+  height:auto;
+} 
+    
+
 
 .image2 {
   width:60%;
