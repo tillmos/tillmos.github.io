@@ -418,10 +418,24 @@ h1 {
 }
 
 .col-sm {
-  margin-left:11rem;
-  margin-right:11rem;
+  margin-left:5%;
+  margin-right:5% !important;
+  
+  
+  
 }
 
+.bal {
+  margin-left:10%;
+  margin-bottom:10%;
+  float:left;
+}
+
+.jobb {
+  margin-right:10%;
+  margin-bottom:10%;
+  float:right;
+}
 .arcticle {
   text-align: left;
 }
