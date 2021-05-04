@@ -44,7 +44,9 @@
 
 h1 {
     flex: auto;
-    flex-direction: column;
+    margin-right: 6%;
+    margin-left:6%;
+    
     text-align: center;
     margin-top: 6rem;
     font-family: "Times New Roman", Times, serif;
@@ -426,13 +428,16 @@ h1 {
 }
 
 .bal {
+  margin-right:10%;
   margin-left:10%;
   margin-bottom:10%;
   float:left;
+  flex:auto;
 }
 
 .jobb {
   margin-right:10%;
+  margin-left:10%;
   margin-bottom:10%;
   float:right;
 }
