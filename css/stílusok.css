@@ -44,14 +44,14 @@
 
 h1 {
     flex: auto;
+    flex-wrap: wrap;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     text-align: center;
     margin-top: 6rem;
     font-family: "Times New Roman", Times, serif;
-    font-size: 400%;
+    font-size: 300%;
     margin-bottom: 12rem;
 }
 
