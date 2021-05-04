@@ -43,7 +43,7 @@
 }
 
 h1 {
-    flex: auto;
+  word-wrap: break-word;
     flex-wrap: wrap;
     display: block;
     margin-left: auto;
@@ -51,7 +51,7 @@ h1 {
     text-align: center;
     margin-top: 6rem;
     font-family: "Times New Roman", Times, serif;
-    font-size: 300%;
+    font-size: 400%;
     margin-bottom: 12rem;
 }
 
