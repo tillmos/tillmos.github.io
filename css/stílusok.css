@@ -376,6 +376,7 @@ h1 {
 .arcticle {
   margin-left:4rem;
   text-align:left;
+  margin-right:4rem;
  
 }
 
@@ -390,9 +391,10 @@ h1 {
 }
 
 .imagemid {
-  width:60%; 
   margin-left:8rem;
-  margin-top:4rem;
+  
+  width:60%;
+  min-width:300px;
   
 
   
