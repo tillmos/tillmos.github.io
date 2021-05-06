@@ -67,7 +67,7 @@
             <p class="sz">
                 A legnagyobb hatással azok a dolgok vannak ránk, amiket a leggyakrabban csinálunk és amiben többen is
                 benne vagyunk. A <span lang="en">well-being </span><b>kihívás lényege ez</b>: nyolc héten át minden héten kapsz
-                egy vagy két e-mailt a heti <span lang="en"><b>well-being </span> lehetőségekkel</b>, amiben 2 vagy 3 jóllétet
+                egy vagy két e-mailt a heti<b> <span lang="en">well-being </span> lehetőségekkel</b>, amiben 2 vagy 3 jóllétet
                 növelő kihívás szerepel vagy a test, vagy a lélek vagy a szellem számára. Az opciók közül válaszd ki
                 azt, amelyik nálad a legjobban betalál.
             </p>
@@ -77,7 +77,7 @@
                 class="imagemid">
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <img class="modal-content" id="img01" alt="Lány" src="modal-content">
                 <div id="captions"></div>
             </div>
         </div>
@@ -92,22 +92,23 @@
         konzultációval támogathatók a kihívásra benevezők
     </div>
     <div class="row">
-        <div class="column">
+        <div class="column" >
             <h2>
                 Videó a kihívásról
             </h2>
 
-            <video poster="../images/munka.PNG" width=620; height=auto; min-width="200"; controls="controls" >
-                <track default kind="captions" srclang="en" src="felirat.vtt">
-                <source src="../video/yt1s.com - THE WELLBEING CHALLENGE_1080p.mp4"
-                    id="video">
+            <video width="620" height="400" controls="controls" poster="../images/munka.PNG">
+        
+                <source src="../video/wellbeing.mp4"
+                    id="video" type="video/mp4">
+                    Nem látható a videó? <a href="../video/wellbeing.mp4">Töltsd le!</a>
 
             </video>
 
         </div>
         <div class="column">
             <ul class="transcript">
-                <li><a href="video_hu.html"> Videó szövege magyarul</a></li>
+                <li><a href="video_hu.xhtml"> Videó szövege magyarul</a></li>
                 <li><a href="video_en.html">Video transcript in english</a></li>
             </ul>
 
@@ -137,25 +138,25 @@
                         kapcsolatos tippeket, gondolkodnivalókat?</b></p>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="munkavallalo" id="munkavallalo" name="check">
-                    <label class="form-check-label" for="defaultCheck1" >
+                    <label class="form-check-label" for="munkavallalo" >
                         munkavállalóként cégnél, szervezetben, egyesületnél
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="vezeto" id="vezeto" name="check">
-                    <label class="form-check-label" for="defaultCheck2">
+                    <label class="form-check-label" for="vezeto">
                         vezetőként cégnél, szervezetben, egyesületnél
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="mentor" id="mentor" name="check">
-                    <label class="form-check-label" for="defaultCheck2">
+                    <label class="form-check-label" for="mentor">
                         mentorként cégnél, szervezetben, egyesületnél
                     </label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="egyeni" id="egyeni" name="check">
-                    <label class="form-check-label" for="defaultCheck2">
+                    <label class="form-check-label" for="egyeni">
                         egyéni vállalkozóként egyedül
                     </label>
                 </div>
@@ -164,7 +165,7 @@
             <div>
                 <p><b>Mire tudod hasznosítani a pozitív munkahelyi élménnyel, jólléttel kapcsolatos
                         gondolkodnivalókat, tippeket? </b></p>
-                <textarea id="velemeny" name="velemeny" rows="10" cols="10" maxlength="200" class="area" "></textarea>
+                <textarea id="velemeny" name="velemeny" rows="10" cols="10" maxlength="200" class="area" ></textarea>
 
             </div>
 
@@ -174,7 +175,7 @@
 
                 <div class="column">
                     <label for="name"><b>Név:</b></label>
-                    <input maxlength="40" type="name" id="name" name="name" class="emailandname"
+                    <input maxlength="40" type="text" id="name" class="emailandname"
                         placeholder="Enter name" required>
 
                 </div>
@@ -183,7 +184,7 @@
                     <label for="email">
                         <b>Email:</b>
                     </label>
-                    <input maxlength="60" type="email" id="email" name="email" class="emailandname"
+                    <input maxlength="60" type="text" id="email" name="email"  class="emailandname"
                         placeholder="Enter email" required>
 
                 </div>
@@ -197,12 +198,12 @@
                 </div>
                 <div class="row">
                     <div class="column">
-                        <input type="submit" class="btn btn-secondary" class="formbutton" required>
+                        <button type="submit" class="btn btn-secondary" >Submit</button>
                             
                         
                     </div>
                     <div class="column">
-                        <input type="reset" value="Reset" class="btn btn-secondary" class="formbutton" required>
+                        <button type="reset" value="Reset" class="btn btn-secondary" >Reset</button>
                     </div>
 
                 </div>
@@ -215,7 +216,7 @@
 
 
     </div>
-    </div>
+    
 
     <footer class="footers">
         <div>

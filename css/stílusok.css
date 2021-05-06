@@ -108,11 +108,7 @@ h1 {
     border:1px solid gray;
 }
 
-#video {
-    flex: auto;
-    margin-left: 4rem;
-    margin-bottom:4rem;
-}
+
 
 .formstyle {
     flex: auto;
@@ -232,8 +228,8 @@ h1 {
   
 
   .modal-content, #caption {  
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
+    
+   
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -269,7 +265,13 @@ h1 {
     font-size:smaller;
 
 }
-  
+  .figcaption {
+    margin-left:6rem;
+}
+
+.figcaptionj {
+  margin-left:4rem;
+}
 .felirat {
     margin:4rem;
     text-align:left;
@@ -379,7 +381,7 @@ h1 {
   
 }
 
-.arcticle {
+.article {
   margin-left:4rem;
   text-align:left;
   margin-right:4rem;
